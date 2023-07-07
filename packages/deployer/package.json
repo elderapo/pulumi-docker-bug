@@ -1,0 +1,17 @@
+{
+  "name": "@pulumi-newdocker-bug/deployer",
+  "main": "src/stack.ts",
+  "version": "0.0.0-dev",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "pulumi up --stack=pulumi-docker-bug"
+  },
+  "devDependencies": {
+    "@pulumi/docker": "^4.3.0",
+    "@pulumi/pulumi": "^3.74.0",
+    "@types/node": "^16"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

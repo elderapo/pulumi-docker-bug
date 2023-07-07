@@ -1,0 +1,26 @@
+diff --git a/browser/find-options/FindOneOptions.d.ts b/browser/find-options/FindOneOptions.d.ts
+index 55371f3802ec010a3f3f2e57bf55cca44b65ff53..1a835c5f67f7e4e00a249df03d667e1343491740 100644
+--- a/browser/find-options/FindOneOptions.d.ts
++++ b/browser/find-options/FindOneOptions.d.ts
+@@ -20,7 +20,7 @@ export interface FindOneOptions<Entity = any> {
+     /**
+      * Simple condition that should be applied to match entities.
+      */
+-    where?: FindOptionsWhere<Entity>[] | FindOptionsWhere<Entity>;
++    where: FindOptionsWhere<Entity>[] | FindOptionsWhere<Entity>;
+     /**
+      * Indicates what relations of entity should be loaded (simplified left join form).
+      */
+diff --git a/find-options/FindOneOptions.d.ts b/find-options/FindOneOptions.d.ts
+index 55371f3802ec010a3f3f2e57bf55cca44b65ff53..1a835c5f67f7e4e00a249df03d667e1343491740 100644
+--- a/find-options/FindOneOptions.d.ts
++++ b/find-options/FindOneOptions.d.ts
+@@ -20,7 +20,7 @@ export interface FindOneOptions<Entity = any> {
+     /**
+      * Simple condition that should be applied to match entities.
+      */
+-    where?: FindOptionsWhere<Entity>[] | FindOptionsWhere<Entity>;
++    where: FindOptionsWhere<Entity>[] | FindOptionsWhere<Entity>;
+     /**
+      * Indicates what relations of entity should be loaded (simplified left join form).
+      */

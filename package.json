@@ -1,0 +1,13 @@
+{
+  "name": "pulumi-docker-bug",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:elderapo/pulumi-docker-bug.git",
+  "author": "Tomasz Martyński <10766808+elderapo@users.noreply.github.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
