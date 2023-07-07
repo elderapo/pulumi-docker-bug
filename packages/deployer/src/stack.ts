@@ -3,12 +3,12 @@ import * as path from "path";
 
 const MONOREPO_ROOT_DIRECTORY = path.join(__dirname, "..", "..", "..");
 const DOCKER_ORG = "elderapo";
-const IMAGE_NAME = "someimage3";
+const IMAGE_NAME = "someimage4";
 
 const image = new docker.Image(IMAGE_NAME, {
   build: {
     context: MONOREPO_ROOT_DIRECTORY,
-    dockerfile: path.join(MONOREPO_ROOT_DIRECTORY, "docker", "Dockerfile"),
+    dockerfile: path.join(MONOREPO_ROOT_DIRECTORY, "docker", "Dockerfile.api"),
     target: "api-release",
     args: {
       DOCKER_BUILDKIT: "1",

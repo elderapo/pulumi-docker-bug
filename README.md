@@ -17,6 +17,6 @@ Output:
 
 ```bash
 Diagnostics:
-  docker:index:Image (someimage):
+  docker:index:Image (someimage4):
     error: unable to hash build context: error while hashing "db/ca-key.pem": could not open file /tmp/pulumi-docker-bug/db/ca-key.pem: open /tmp/pulumi-docker-bug/db/ca-key.pem: permission denied
 ```

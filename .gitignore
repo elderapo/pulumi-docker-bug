@@ -101,4 +101,15 @@ db/
 dist/
 build
 .build
+*.xbackup.gz
+*.xbackup.gz*
+packages/microservice-wallet/logs.txt
 
+.yarn
+
+db-backup*
+db-restored-production-2/
+
+db-restored-production/
+
+report.html

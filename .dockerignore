@@ -21,6 +21,3 @@ README.md
 LICENSE
 
 db/
-*.xbackup.gz
-*.xbackup.gz*
-db-backup*

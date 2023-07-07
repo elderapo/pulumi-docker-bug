@@ -10,7 +10,7 @@ COPY packages/some-lib/package.json packages/some-lib/package.json
 RUN yarn install
 
 # Fake build
-RUN echo aaaa > /tmp/assets.txt
+RUN echo zdfsdfsd > /tmp/assets.txt
 
 FROM node:18-alpine AS api-release
 
